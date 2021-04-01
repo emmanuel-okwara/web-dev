@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
 body {
     padding: 0;
     margin: 0;
@@ -8,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
+    justify-content:center;
     overflow: hidden;
 }
 /* first section */
@@ -19,16 +27,40 @@ body {
     background-image: url("../img/emerson-vieira-cpkPJ-U9eUM-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    overflow: hidden;
 }
 .upper-content-container {
     margin: auto;
+    position: relative;
     color: white;
     font-size: 50px;
 }
+.wel-text{
+    text-align: center;
+    font-size: 80px;
+    /* font-family: 'Allura', cursive; */
+    font-family: 'Alex Brush', cursive;
+    margin: 0px;
+}
+.welcome-text-container{
+    transform: translateY(50px);
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+#flw-img2{
+    transform:translate(10px) translateY(-17px);
+}
+#flw-img1{
+    transform: translate(80px) translateY(-10px);
+}
 .upper-content-container > h1 {
-    border: 10px solid;
-    padding:10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    transform: translateY(-140px);
+
     
 }
 
@@ -44,7 +76,8 @@ body {
     font-weight: bold;
     font-size: 20px;
     color: white;
-    margin-left: 20px ;
+    margin-left: 60px ;
+    font-family: 'Poppins', sans-serif;
     padding: 10px;
 }
 .nav-bar > ol{
@@ -60,11 +93,17 @@ body {
 .nav-bar > ol > li {
     margin-right: 40px;
     decoration: none;
+    border-width: 0px solid transparent;
+    transition: border-width 2s cubic-bezier(0,0.4,0,1);
 
 }
 .nav-bar > ol > li > a {
     color: white;
-    text-decoration: none
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    /* background-color: antiquewhite; */
+    padding:10px;
+
     
 }
 .bdy-2{
@@ -91,17 +130,19 @@ body {
 .bdy-2-sec-1 {
     text-align: center;
     font-size: 15px;
+
 }
 .bdy-2-sec-1 > h1{
     border : 5px solid;
     padding: 10px;
     margin-bottom: 40px;
+    opacity: 0;
 }
 
 .bdy-3{
     height: 100vh;
     width: 100vw;
-    background-image: url(../img/jon-parry-C8eSYwQkwHw-unsplash.jpg);
+    background-image: url('../img/jon-parry-C8eSYwQkwHw-unsplash.jpg');
     background-size: cover;
     display: flex; 
     justify-content: center;
@@ -126,7 +167,7 @@ body {
     background-color: white;
 }
 .bdy-4-sec-1 > img {
-    width: 450px;
+    width: 400px;
 }
 .bdy-4-sec-1 , .bdy-4-sec-2 {
     padding : 20px;
@@ -142,6 +183,8 @@ body {
     border: 5px solid black;
     padding : 10px;
     margin-bottom: 40px;
+    opacity: 0;
+
 
 }
 .bdy-5{
@@ -149,7 +192,7 @@ body {
     justify-content: center;
     width:100vw;
     height : 100vh;
-    background-image: url(../img/wesual-click-rsWZ-P9FbQ4-unsplash.jpg);
+    background-image: url('../img/wesual-click-rsWZ-P9FbQ4-unsplash.jpg');
     background-size: cover;
 
 }
@@ -188,5 +231,47 @@ body {
 .bdy-6-sec-1 > h1 {
     border : 5px solid black;
     padding: 5px;
+    opacity: 0;
     margin-bottom : 40px;
+}
+#story-animation > p {
+    opacity: 0;
+}
+
+.bdy-7{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: center;
+}
+.footer-txt {
+    line-height: 30px;
+    margin-bottom:30px;
+}
+.bdy-footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.bdy-1-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bdy-1-images> .bdy-img {
+    width: 300px;
+    height: 150px;
+}
+.bdy-img > img {
+    opacity: 0;
+}
+.bdy-img{
+    transition: transform 2s cubic-bezier(.07,.41,0,1.07);
+
+}
+.bdy-img:hover{
+    transform: scale(1.1);
 }
