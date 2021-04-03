@@ -48,7 +48,6 @@
     box-shadow: 5px 5px 15px rgba(94, 93, 93, 0.302);
 }
 
-
 @keyframes slideright {
     0% { opacity:0;
         transform : translateX(0px);

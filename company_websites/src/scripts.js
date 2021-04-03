@@ -81,13 +81,11 @@ changebackground =() => {
         }
         
 }
-window.onload = function(){
-img_bck();
-setInterval(changebackground,10000);
-setTimeout(bdy1_background_change(),2000);
-setTimeout(window.addEventListener('scroll',animate),5000);
-}
-
-
+document.body.onload = () => {
+    setTimeout(img_bck(),1000/60);
+    setInterval(changebackground,10000);
+    setTimeout(bdy1_background_change(),2000);
+    setTimeout(window.addEventListener('scroll',animate),5000);
+};
 
 

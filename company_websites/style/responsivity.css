@@ -1,0 +1,133 @@
+@media screen and ( max-width: 1010px) {
+    /* .bdy-cnt{
+        box-sizing: content-box;
+        align-items: center;
+    } */
+    .nav-bar > p {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .nav-bar > ol > li{
+        visibility: hidden;
+    }
+    .upper-content-container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    .welcome-text-container{
+        display: flex;
+        transform: none;
+        transform: translateX(-50px);
+    }
+    .wel-text{
+        font-size:30px;
+        margin-left: 40px;
+    }
+    .welcome-text-container > img{
+        width: 150px;
+        transform:none;
+    }
+    .upper-content-container > h1{
+        font-size:40px;
+        transform: none;
+        transform: translate(-30px,-80px);
+    }
+
+    /* bdy-2 styling  */
+
+    .bdy-2 {
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .bdy-2-sec-1{
+/* 
+        display: flex;
+        flex-direction: column; */
+    }
+    .bdy-2-sec-1 > h1{
+        font-size: 25px;
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    .bdy-2-sec-1 > p{
+        font-size: 10px;
+        margin-bottom: 20px;
+        text-align: left;
+        text-justify: auto;
+
+    }
+    .bdy-2-sec-2{
+        width:fit-content;
+        transform:translateX(-9px);
+    }
+    .bdy-2-sec-2> img{
+        width:80%;
+    }
+    .bdy-4 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        
+
+    }
+    .bdy-4-sec-2{
+        margin: auto;
+    }
+    .bdy-4-sec-2 > h1{
+        font-size: 25px;
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    .bdy-4-sec-2 > p{
+        font-size: 10px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .bdy-4-sec-1> img{
+        width: 80%;
+        height: auto;
+    }
+    .bdy-6 {
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+    .bdy-6-sec-1 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    .bdy-6-sec-1 > h1{
+        font-size: 25px;
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    .bdy-6-sec-1 > p{
+        font-size: 10px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .bdy-6-sec-2{
+        margin: auto;
+    }
+    .bdy-6-sec-2> img{
+        margin: auto;
+        width: 45%;
+        height: auto;
+    }
+}
+@media screen and (max-width:460){
+    
+        .bdy-4-sec-2{
+            display: flex;
+            flex-direction:column;
+            margin: auto;
+
+        }
+}
