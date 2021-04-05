@@ -92,8 +92,6 @@
         flex-direction: column;
         justify-content: center;
         height: auto;
-        
-
     }
     .bdy-4-sec-2{
         margin: auto;
@@ -147,6 +145,7 @@
         width: 20px;
     }
     .nav-bar > ol {
+        cursor:grab;
         margin: 0px 0px 0px 0px;
     }
     .menu{
