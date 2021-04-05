@@ -17,6 +17,7 @@ function isElementInViewport (el) {
         rect.right <= (window.innerWidth || document.documentElement.clientWidth) /* or $(window).width() */
     );
 }
+
 num = 0;
 img_bck = () => {
     bdy_1_imgs = ["./img/chad-montano-MqT0asuoIcU-unsplash.jpg",
@@ -81,11 +82,37 @@ changebackground =() => {
         }
         
 }
+closingIcon = () => {
+    document.querySelector('.closing-icon').addEventListener('click',() =>{
+        navBarContent.classList.remove('menu');
+        iconEl.setAttribute('src','./img/burger-01.png');
+        iconEl.classList.remove('closing-icon');
+    })
+}
+
+burger_icon_change = () => {
+    //CHANGING THE HAMBURGER MENU TO CLOSING ICON
+    iconEl = document.querySelector('.burger-icon');
+    iconEl.addEventListener('click',()=>{
+    iconEl.setAttribute('src','./img/closing.png');
+    iconEl.classList.add('closing-icon');
+
+    navBarContent = document.querySelector('.nav-bar > ol');
+    navBarContent.classList.add('menu');
+    closingIcon(); 
+    })
+
+};
+
+
+
+
 document.body.onload = () => {
     setTimeout(img_bck(),1000/60);
     setInterval(changebackground,10000);
     setTimeout(bdy1_background_change(),2000);
     setTimeout(window.addEventListener('scroll',animate),5000);
+    setInterval(burger_icon_change,1000);
 };
 
 

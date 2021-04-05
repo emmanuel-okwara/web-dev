@@ -33,13 +33,12 @@ body {
 }
 .upper-content-container {
     margin: auto;
-    position: relative;
     color: white;
     font-size: 50px;
 }
 .wel-text{
     text-align: center;
-    font-size: 80px;
+    font-size: 1em;
     /* font-family: 'Allura', cursive; */
     font-family: 'Alex Brush', cursive;
     margin: 0px;
@@ -52,10 +51,10 @@ body {
 
 }
 #flw-img2{
-    transform:translate(10px) translateY(-17px);
+    transform:translate(10px) translateY(-27px);
 }
 #flw-img1{
-    transform: translate(80px) translateY(-10px);
+    transform: translate(80px) translateY(-20px);
 }
 .upper-content-container > h1 {
     text-align: center;
@@ -90,6 +89,12 @@ body {
     padding: 10px;
     margin-top: 25px;
 
+}
+.burger-icon {
+    width: 50px;
+    height:50px;
+    margin-right: 10px;
+    display: none;
 }
 
 .nav-bar > ol > li {
@@ -234,11 +239,13 @@ body {
     padding : 20px;
 }
 .bdy-6-sec-1 {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     font-size: 15px;
     margin-right: 10px;
 }
 .bdy-6-sec-1 > h1 {
+    text-align: center;
     border : 5px solid black;
     padding: 5px;
     opacity: 0;
@@ -286,4 +293,12 @@ body {
 .bdy-img:hover{
     z-index: 10;
     transform: scale(1.09);
+}
+.footer-icon-container > img{
+    width :20px;
+    margin-left: 10px;
+}
+footer-icon-container{
+    display: flex;
+    justify-content: space-between;
 }
