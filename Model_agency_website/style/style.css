@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap');
+body {
+    margin: 0px;
+    overflow: auto;
+}
+
+.body-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.bdy-cnt {
+    display: none;
+    width: 75%;
+    height: 80%;
+}
+
+.body-animation {
+    display: flex;
+    opacity: 0;
+    animation: fadeIn 4s cubic-bezier(0, 0.5, 0, 1) forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translate(0px, -300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, initial);
+    }
+}
+
+.model-image-viewer-container {
+    background-image: url(../img/models/monica.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: inherit;
+    width: 65%;
+    height: 100%;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    width: 35%;
+    box-shadow: 5px 5px 30px #a5a5a567;
+    height: 100%;
+}
+
+.info-nav-cnt {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding: 20px;
+}
+
+.back-icon-button-container>img {
+    opacity: 0;
+    filter: drop-shadow(2px 2px 1px rgba(60, 60, 60, 0.337));
+    margin-left: 20px;
+    width: 17px;
+    height: auto;
+}
+
+.two-button-container>img {
+    opacity: 0;
+    margin-right: 30px;
+    filter: drop-shadow(2px 2px 1px rgba(60, 60, 60, 0.337));
+    width: 15px;
+    height: auto;
+}
+
+.two-button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.browse-model-container>img {
+    opacity: 0;
+    filter: drop-shadow(2px 2px 1px rgba(60, 60, 60, 0.337));
+    width: 9px;
+    height: auto;
+}
+
+.browse-model-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.previous-button {
+    margin-left: 40px;
+    /* opacity: 0; */
+}
+
+.next-button {
+    /* opacity: 0; */
+    margin-right: 40px;
+}
+
+.model-info-cnt {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    width: auto;
+    height: auto;
+}
+
+.model-info-cnt>h1 {
+    font-family: 'Passion One', cursive;
+    margin: 0px 0px 0px 0px;
+    font-size: 400%;
+    line-height: 45px;
+    font-weight: bold
+}
+
+.model-city {
+    color: gray;
+    font-weight: bold;
+    font-variant: normal;
+}
+
+.model-background {
+    font-weight: bold;
+    font-size: .9em;
+    font-family: 'Public Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.more-info {
+    background-color: rgb(255, 136, 57);
+    border: none;
+    padding: 8px;
+}
+
+.dropdown-btn-one,
+.dropdown-btn-two {
+    animation: Dropdown 2s cubic-bezier(0, .5, 0, 1) forwards;
+}
+
+.slideRight-back-button,
+.slideRight-previous-button {
+    animation: SlideRight 2s cubic-bezier(0, .5, 0, 1) forwards;
+}
+
+.slideLeft-next-button {
+    animation: slideleft 2s cubic-bezier(0, .5, 0, 1) forwards;
+}
+
+@keyframes Dropdown {
+    0% {
+        opacity: 0;
+        transform: translate(0px, -30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, initial)
+    }
+}
+
+@keyframes SlideRight {
+    0% {
+        opacity: 0;
+        transform: translate(-30px, 0px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(initial, 0px)
+    }
+}
+
+@keyframes slideleft {
+    0% {
+        opacity: 0;
+        transform: translate(30px, 0px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(initial, 0px)
+    }
+}

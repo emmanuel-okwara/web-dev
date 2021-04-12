@@ -1,0 +1,163 @@
+{
+    "Model": [{
+            "name": "Andre",
+            "surname": "Johnson",
+            "imglocation": "../img/models/Andre.jpg",
+            "description": "Andre is a 20 year old Model , \n He works as an assistance and is into gaming and football\n Andre was born in the United States and \nraised in New York.",
+            "city": "USA, New York",
+            "height": "1.8meters",
+            "age": "20",
+            "Occupation": "Waiter"
+        },
+        {
+            "name": "Anna",
+            "surname": "Showman",
+            "imglocation": "../img/models/anna.jpg",
+            "description": "Anna is a 21 years old Australian Model born \nand raised Australia and when she's \nnot modeling her favourite pass time is Shopping,\nhanging with her Girlfriends,and watching Sitcomes, \nAnna is very passionate about modeling and it is her passion.",
+            "city": "AUS,Australia",
+            "height": "2.0meters",
+            "age": "21",
+            "Occupation": "Retail Assistance"
+        },
+        {
+            "name": "Beca",
+            "surname": "Jones",
+            "imglocation": "../img/models/beca.jpg",
+            "description": "Beca is a sophisticated author\n at the age of 22 She enjoys reading,writing and \npoetry during her spare time She was born in California in \nthe United states, She is engaged in her work and good at it.",
+            "city": "USA , California",
+            "height": "1.6meters",
+            "age": "22",
+            "Occupation": "Hairstylists"
+        },
+        {
+            "name": "Brenda",
+            "surname": "Ramires",
+            "imglocation": "../img/models/brenda.jpg",
+            "description": "Brenda is a 20 years old South African Model born \nin Pretoria South Africa she is an aspiring writer, \n if not  modeling her favourite pass time is gaming,\nspending her time with her family ,and watching Soapies, \nBrenda is very passionate about modeling and it is her passion.",
+            "city": "SA, South Africa",
+            "height": "1.8meters",
+            "age": "20",
+            "Occupation": "Waiter"
+        },
+        {
+            "name": "Cathie",
+            "surname": "Reeves",
+            "imglocation": "../img/models/cathie.jpg",
+            "description": "Cathie is a 19 year old Model She was born in Elonia in USA ,\n She's a writer , when she's not writing or modeling she is Reads \n or helps out at her Local Soup Kitchen ,She is passionate about her occupation\nand enjoys doing it.",
+            "city": "USA, Elonia",
+            "height": "1.7 meters",
+            "age": "19",
+            "Occupation": "Writer"
+        },
+        {
+            "name": "Chloe",
+            "surname": "Beckson",
+            "imglocation": "../img/models/chloe.jpg",
+            "description": "Chloe is a 22 year old Model born and raised in Brazil \n She grew up in rio and had to work hard to \n get to were she is today , \nShe hopes to model on the runway So she can make more money \nto support her family.",
+            "city": "BRZ, Brazil",
+            "height": "1.6 meters",
+            "age": "20",
+            "Occupation": "Model"
+        },
+        {
+            "name": "Craig",
+            "surname": "Coner",
+            "imglocation": "../img/models/craig.jpg",
+            "description": "Craig is a 23 year old model who born and raised in \nthe capital city of Russia  On the side Craig is a Graphic Designer \nand Videographer , during his chill times he \nenjoys playing Chess and Basketball.",
+            "city": "RUS, Russia",
+            "height": "1.7meters",
+            "age": "23",
+            "Occupation": "Model/GraphicDesigner"
+        },
+        {
+            "name": "Devonte",
+            "surname": "Rodes",
+            "imglocation": "../img/models/devonte.jpg",
+            "description": " Devonte is a Model from the United States , \n he was born in New York and he enjoys\n playing sports and extreme sports he is a tech enthusists \n and is about all things technology and gadgets.",
+            "city": "USA, New York",
+            "height": "1.5meters",
+            "age": "20",
+            "Occupation": "Tech-enthusist/ model"
+        },
+        {
+            "name": "Emily",
+            "surname": "Willson",
+            "imglocation": "../img/models/emily.jpg",
+            "description": "Emily is a 22 year old aspiring actress and a singer , \n she is very talented and love's her craft\n She likes to run during her spare time and \n does all she can to keep healthy and fit in both her mind and body.",
+            "city": "USA, New York",
+            "height": "1.6meters",
+            "age": "22",
+            "Occupation": "Actress/Singer/Model"
+        },
+        {
+            "name": "Franklin",
+            "surname": "Doug",
+            "imglocation": "../img/models/Franklin.jpg",
+            "description": "Franklin is a 24 year old Modl who was born and \n raised in the United States he grew up in New York\n and was the only child to his parents , he's is well \n educated and on his spare time he enjoys playing basketball and drawing.",
+            "city": "USA, New York",
+            "height": "1.8meters",
+            "age": "24",
+            "Occupation": "Telemarketer/Model"
+        },
+        {
+            "name": "Grace",
+            "surname": "Deck",
+            "imglocation": "../img/models/grace.jpg",
+            "description": "Grace is an enterprenuer and a well educated Model\n She is 20 years of age and is well versed in Literature \n She is also an aspiring Novelist and\n A hardworker .",
+            "city": "USA, New York",
+            "height": "1.6meters",
+            "age": "20",
+            "Occupation": "Writer/Model"
+        },
+        {
+            "name": "James",
+            "surname": "Griffin",
+            "imglocation": "../img/models/james.jpg",
+            "description": "James Griffin is a 21 year old Waiter\n He models in his free time and hopes to turn it into a full time Job \n during his spare time he spends it Gaming and working on improving himself.",
+            "city": "USA, New York",
+            "height": "1.8meters",
+            "age": "21",
+            "Occupation": "Waiter"
+        },
+        {
+            "name": "Johana",
+            "surname": "Jet",
+            "imglocation": "../img/models/Johan.jpg",
+            "description": "Johana is a artist and an aspiring model \n she was born in United States and \n grew up in New York city when she is not \n working on a new masterpiece or modeling she \n spends her time watching her favourite movies.",
+            "city": "USA, New York",
+            "height": "1.8meters",
+            "age": "20",
+            "Occupation": "Artist/Model"
+        },
+        {
+            "name": "Meg",
+            "surname": "Ross",
+            "imglocation": "../img/models/meg.jpg",
+            "description": "Meg is a 19 year old Model and Student \n she aspires to become a Model she was born in the \n United States and was raised in carlifornia\n.",
+            "city": "USA, Carlifornia",
+            "height": "1.7meters",
+            "age": "19",
+            "Occupation": "Student/Model"
+        },
+        {
+            "name": "Monica",
+            "surname": "Reviers",
+            "imglocation": "../img/models/monica.jpg",
+            "description": " Monica Reviers is a chef / Model and\n a Writer she is 25 years of age and \n during her spare time she spends it exploring Local qusines. .",
+            "city": "USA, Arizona",
+            "height": "1.8meters",
+            "age": "25",
+            "Occupation": "Writer/Model"
+        },
+        {
+            "name": "Rachel",
+            "surname": "Rack",
+            "imglocation": "../img/models/rachel.jpg",
+            "description": "Rachel is a Phycist she is 26 years of \n age, she enjoys working out and having fun ,\n Most of her time is spent in her work and she enjoys it.",
+            "city": "USA, Arizona",
+            "height": "1.8meters",
+            "age": "25",
+            "Occupation": "Physcist/Model"
+        }
+    ]
+}

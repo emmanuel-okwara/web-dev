@@ -1,0 +1,54 @@
+.text-animation {
+    z-index: 5;
+}
+
+.text-animation>h1>span {
+    opacity: 0;
+}
+
+.txt-anim {
+    position: absolute;
+    display: flex;
+    font-size: 2.4em;
+}
+
+body {
+    margin: 0px;
+}
+
+.animate-text {
+    font-size: 1.1em;
+}
+
+.welcome-animation {
+    width: 100%;
+    z-index: 4;
+    position: absolute;
+}
+
+@keyframes inview {
+    0% {
+        height: 0vh;
+    }
+    50% {
+        height: 100vh;
+    }
+    100% {
+        height: 0vh;
+    }
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(initial);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+}
