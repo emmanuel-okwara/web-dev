@@ -15,6 +15,7 @@ body {
 }
 
 .bdy-cnt {
+    position: relative;
     display: none;
     width: 75%;
     height: 80%;
@@ -23,21 +24,11 @@ body {
 .body-animation {
     display: flex;
     opacity: 0;
-    animation: fadeIn 4s cubic-bezier(0, 0.5, 0, 1) forwards;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translate(0px, -300px);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(0px, initial);
-    }
+    animation: fadeIn 2s cubic-bezier(0, 0.5, 0, 1) forwards;
 }
 
 .model-image-viewer-container {
+    position: relative;
     background-image: url(../img/models/monica.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,13 +106,13 @@ body {
     flex-direction: column;
     padding: 60px;
     width: auto;
-    height: auto;
+    height: 60%;
 }
 
-.model-info-cnt>h1 {
+.model-name {
     font-family: 'Passion One', cursive;
     margin: 0px 0px 0px 0px;
-    font-size: 400%;
+    font-size: 4em;
     line-height: 45px;
     font-weight: bold
 }
@@ -138,58 +129,88 @@ body {
     font-family: 'Public Sans', sans-serif;
     color: rgb(0, 0, 0);
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
 }
 
 .more-info {
     background-color: rgb(255, 136, 57);
+    font-weight: 700;
     border: none;
+    outline: none;
     padding: 8px;
 }
 
-.dropdown-btn-one,
-.dropdown-btn-two {
-    animation: Dropdown 2s cubic-bezier(0, .5, 0, 1) forwards;
+.mdl-number {
+    font-size: medium;
+    font-weight: bold !important;
 }
 
-.slideRight-back-button,
-.slideRight-previous-button {
-    animation: SlideRight 2s cubic-bezier(0, .5, 0, 1) forwards;
+.nav-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.585) !important;
+    width: 50px;
+    height: 50px;
 }
 
-.slideLeft-next-button {
-    animation: slideleft 2s cubic-bezier(0, .5, 0, 1) forwards;
+.nav-links {
+    display: none;
+    padding: 0px;
+    margin: 0px;
 }
 
-@keyframes Dropdown {
-    0% {
-        opacity: 0;
-        transform: translate(0px, -30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(0px, initial)
-    }
+.nav-bar-button {
+    width: 20px;
+    height: auto;
+    float: right;
+    position: relative;
 }
 
-@keyframes SlideRight {
-    0% {
-        opacity: 0;
-        transform: translate(-30px, 0px);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(initial, 0px)
-    }
+.links-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
 }
 
-@keyframes slideleft {
-    0% {
-        opacity: 0;
-        transform: translate(30px, 0px);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(initial, 0px)
-    }
+.nav-cnt-down {
+    position: absolute;
+    transition: all 0.9s cubic-bezier(0, .5, 0, 1);
+}
+
+.nav-cnt-down {
+    width: 100%;
+    height: 100%;
+}
+
+.links-body>li {
+    list-style: none;
+    padding: 20px;
+    opacity: 0;
+    transition: all .4s 1s cubic-bezier(0, .5, 0, 1);
+}
+
+.links-body>li {
+    opacity: 1;
+}
+
+.links-body>li>a {
+    text-decoration: none;
+    color: white !important;
+    font-size: 50px;
+}
+
+.nav-icon-trans {
+    transform: translate(-30px, 250px);
+}
+
+.model-display {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 218, 185, 0.317);
+    position: absolute;
+    z-index: 5;
 }
