@@ -22,6 +22,7 @@ window.onload = function() {
         curtainBody.style.cssText += `
             display:flex;
             justify-content: space-between;
+            flex-flow: warp;
         `
         let count = 0;
         for (count; count < 15; count++) {
@@ -68,3 +69,8 @@ window.onload = function() {
     setTimeout(removing, 10000)
     setTimeout(display_body, 11000)
 }
+
+function full() {
+    document.documentElement.requestFullscreen();
+}
+full();

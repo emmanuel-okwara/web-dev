@@ -61,6 +61,46 @@
     animation: SlideUp 2s cubic-bezier(0, .43, 0, 1) forwards;
 }
 
+
+/* home page animations */
+
+.header-name {
+    opacity: 0;
+    animation: slideleft 2s cubic-bezier(0, .5, 0, 1) forwards;
+}
+
+.title {
+    opacity: 0;
+    animation: Dropdown 4s .5s cubic-bezier(0, .5, 0, 1) forwards;
+}
+
+.welcome-note {
+    opacity: 0;
+    animation: SlideRight 4s 1s cubic-bezier(0, .5, 0, 1) forwards;
+}
+
+.btn {
+    opacity: 0;
+    animation: fadeIn_ 3s 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+
+.btn- {
+    transition: all .3s cubic-bezier(0.19, .7, 0.22, 1);
+}
+
+.btn-:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.nav-icon:hover {
+    cursor: pointer;
+}
+
+.hme-anchor-animation {
+    animation: Dropdown 2s cubic-bezier(0, .5, 0, 1) forwards;
+}
+
 @keyframes shake {
     0% {
         transform: translate(1px, 1px) rotate(0deg);

@@ -87,6 +87,7 @@ change_nav_icon = () => {
     nav_icon = document.querySelector('.nav-bar-button');
     let nav_links_cnt = document.querySelector('.nav-links');
     let nav_cnt = document.querySelector('.nav-cnt');
+    let nav_button_cnt = document.querySelector('.icon_container')
 
     nav_icon.addEventListener('mouseover', function() {
         if ((nav_icon.getAttribute('src') === './img/icons-buttons/burger-icon.png') && (nav_cnt.offsetWidth < 400)) {
@@ -110,12 +111,15 @@ change_nav_icon = () => {
             nav_links_cnt.classList.add('links-body');
             nav_icon.classList.add('nav-icon-trans');
             nav_cnt.classList.add('nav-cnt-down');
+            nav_button_cnt.classList.add('nav-button-cnt');
         }
         if ((nav_cnt.offsetWidth > 400) && (nav_icon.getAttribute('src') === './img/icons-buttons/top-icon.png')) {
             nav_icon.setAttribute('src', './img/icons-buttons/burger-icon.png');
             nav_links_cnt.classList.remove('links-body');
             nav_icon.classList.remove('nav-icon-trans');
             nav_cnt.classList.remove('nav-cnt-down');
+            nav_button_cnt.classList.remove('nav-button-cnt')
+
         }
     })
 
