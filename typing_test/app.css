@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 *{
     box-sizing:border-box;
 }
@@ -10,65 +12,61 @@ body {
     width:100vw;
     height: 100vh;
     display:flex;
-    justify-content:center;
-    align-items:center;
 }
 .cntcnt{
+    margin: auto;
     display : flex;
-    justify-content:center;
-    align-items:center;
-    width: 50vw;
-    height: 200px;
+    width: 60vw;
+    height: 100px;
     overflow: hidden;
+    text-align: center;
+    /* background-color: yellow; */
 }
 
 .cnt{
     display : flex;
-    align-items:center;
-    width: 100%;
-    padding-left:200px;
+    text-align: center;
+    height: 100px;
+    padding-left: 300px;
+    font-family: 'Roboto Mono', monospace;
     font-size: 30px;
-    transition: all .4s cubic-bezier(0.2, .5, 0.22, 1);
+    color: rgba(65, 65, 65, 0.529);
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.42, .879);
+    /* background-color: deeppink; */
 }
-.characters{
-    position: relative;
-    display : flex;
-    flex-direction:column;
-    padding:5px;
+.inwrd,.inerr{
+    /* width: 20px; */
+    height: 70px;
+    border-radius:10%;
+    padding: 10px;
+    text-align: center;
 }
-.characters::before{
-    content:'';
-    position: absolute;
-    color: tomato;
-    display : flex;
-    flex-direction:row-reverse;
-}
-.characters::after{
-    margin: auto;
-    visibility: hidden;
-    content: '';
-    width: 0; 
-    height: 0; 
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid black;
-}
-.wrong::before{
-    content: ' fdlj';
-    color: red;
-}
-
-.gray{
-    color:rgba(67, 67, 67, 0.371);
-}
-.right::after{
-    visibility: visible;
-    
-}
-
 .inwrd{
-    display: flex;
-    word-spacing: 20px;
-    margin-left: 8px;
-    /* flex-direction: row; */
+    position: relative;
+    background-color: rgba(250, 235, 215, 0.159);
+}
+.inerr{
+    padding: 15px;
+    margin-right: 3px;
+    background-color: rgba(255, 99, 71, 0.405);
+    color: tomato;
+}
+.active{
+    color: black;
+}
+.active::before{
+    content: attr(title);
+    background-color:rgba(255, 0, 0, 0.344);
+    color: tomato;
+}
+.active::after{
+    position: absolute;
+    right:15px;
+    bottom:0px;
+    content:"";
+    width: 0px;
+    height: 0px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid rgb(104, 122, 255);
 }
